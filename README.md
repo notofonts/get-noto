@@ -7,7 +7,7 @@ Noto’s goal is to provide a beautiful reading experience for all languages. It
 For background, technical details, and how to contribute, see the [FAQ](FAQ.md).
 
 The fonts here are organized per script. Within each script directory there might be up to 5 subdirectories. These are:
-* font-v1x-ttf: location of version 1.x fonts (they were issued as TTF only, but CJK)
+* *font-v1x-ttf*: location of version 1.x fonts (they were issued as TTF only, but CJK)
 * otf: current version of OTF fonts (same number of files as in the ttf directory below)
 * slim-variable-ttf: Noto Variable Fonts might have multiple axis; this directory contains only Variable Fonts with a weight axis only "slimmed-down" to Regular through Bold range. (same number of files as in the variable-ttf directory below)
 * ttf: current TTF fonts (same number of files as in the otf directory above)
