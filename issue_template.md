@@ -1,10 +1,10 @@
 ## Defect Report
 Use this template for filing a defect report. For feature requests and other matters, you can use part of the template and delete what you don't need.
 
-### Title 
+### Title
   > Should be brief but contain essential information.
 
-### Font 
+### Font
   > Full file name, for example 'NotoSansArmenian-Regular.ttf'.
   > You can upload the problem font here unless it is a Chinese, Japanese or Korean font (these are large).
 
@@ -30,7 +30,7 @@ Use this template for filing a defect report. For feature requests and other mat
   1. Steps to reproduce
   2. Observed results
   3. Expected results
-  4. Additional information 
+  4. Additional information
   > Unicode chart, technical specs, shaping info, comparison with non-Noto fonts, comparison with earlier version of the same font (regression cases)
 
 ### Character data
@@ -42,8 +42,8 @@ Use this template for filing a defect report. For feature requests and other mat
 
 
 ## Tools for reporting bugs
-  Useful tools for reporting bugs are available at: https://github.com/googlei18n/
-  
+  Useful tools for reporting bugs are available at https://fontgoggles.org/ and https://github.com/googlefonts/
+
 ### Harfbuzz hb-view and hb-shape
   These are part of the HarfBuzz distribution and can help isolate if an issue is in the app/OS, shaping engine, or font.
   * hb-view renders the text with the exact font (for example, to see how ligatured characters shape) using your installed version of HarfBuzz.
